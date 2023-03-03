@@ -4,9 +4,13 @@ public class Main
 {
 	public static void main(String[] args) {
 	Scanner sc=new Scanner(System.in);
-	while(true){
+	System.out.print("Enter your name : ");
+	String name=sc.nextLine();
+		System.out.println("Hi "+name);
 	System.out.println("Welcome! to the game of Stone, Paper, Scissor");
-	System.out.println("Enter the input: ");
+	while(true){
+	    
+	System.out.print("Enter the input: ");
 	String input=sc.nextLine();
 	if(input.equals("quit")){
 	    break;
